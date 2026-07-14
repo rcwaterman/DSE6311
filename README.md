@@ -4,4 +4,5 @@ Accelerometers embedded in Inertial Measurement Units (IMU's) are subject to err
 ## Question
 Can a machine learning model accurately predict cartesian axis measurement error due to thermal fluctuation, effectively correcting this failure mode?   
 ## Hypothesis and Predictions
-Given sufficient, clean data, a model can sufficiently predict the offset vector required to cancel error due to thermal drift. 
+- Hypothesis: The relationship between thermal energy and axial stress is a function of the substrate surface area/geometry, which is predictable and consistent in this application.  
+- Prediction: Given enough clean data, a model can sufficiently predict the offset vector required to cancel error due to thermal drift. 
